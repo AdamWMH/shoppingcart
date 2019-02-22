@@ -41,5 +41,12 @@ namespace WooliesXAPI.Controllers
             var response = await productService.GetTrolleyTotal(trolley);
             return response;
         }
+
+        [HttpPost("v2/trolleyTotal")]
+        public async Task<ActionResult<decimal>> CalculateTrolleyTotal([FromBody] Trolley trolley)
+        {
+            var response = await productService.CalculateTrolleyTotal(trolley);
+            return response;
+        }
     }
 }

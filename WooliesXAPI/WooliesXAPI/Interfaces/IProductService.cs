@@ -11,5 +11,7 @@ namespace WooliesXAPI.Interfaces
         Task<List<Product>> GetSortedProducts(string sortOption);
 
         Task<decimal> GetTrolleyTotal(Trolley trolley);
+
+        Task<decimal> CalculateTrolleyTotal(Trolley trolley);
     }
 }
