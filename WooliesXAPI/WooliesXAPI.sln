@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.329
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesXAPI", "WooliesXAPI\WooliesXAPI.csproj", "{76B1AD53-4E2F-469E-994C-48D78BDCE823}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WooliesXAPI_Tests", "WooliesXAPI_Tests\WooliesXAPI_Tests.csproj", "{683C5628-4153-4004-B7DA-B10A97D55918}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{76B1AD53-4E2F-469E-994C-48D78BDCE823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76B1AD53-4E2F-469E-994C-48D78BDCE823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76B1AD53-4E2F-469E-994C-48D78BDCE823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76B1AD53-4E2F-469E-994C-48D78BDCE823}.Release|Any CPU.Build.0 = Release|Any CPU
+		{683C5628-4153-4004-B7DA-B10A97D55918}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{683C5628-4153-4004-B7DA-B10A97D55918}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{683C5628-4153-4004-B7DA-B10A97D55918}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{683C5628-4153-4004-B7DA-B10A97D55918}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D163E994-7D8E-4BC4-ACC9-AE6D5E39E63A}
+	EndGlobalSection
+EndGlobal
